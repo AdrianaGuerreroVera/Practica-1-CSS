@@ -1,0 +1,46 @@
+header
+{
+    border: 2px solid mediumvioletred;
+    background-image: url(fondogatos.jpg);
+}
+
+main
+{
+    border: 2px solid mediumorchid;
+    background-image: url(fondogatos.jpg);
+    display:flex;
+}
+
+main *
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    
+
+}
+form
+{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+form *
+{
+    text-align: center;
+}
+
+main form input.Boton
+{
+    background-color: lime;
+    border-radius: 5px;
+}
+
+footer
+{
+    text-align: right;
+    
+}

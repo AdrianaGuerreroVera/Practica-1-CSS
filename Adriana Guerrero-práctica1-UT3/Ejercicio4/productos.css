@@ -1,0 +1,83 @@
+
+
+.polaroid 
+{
+    background-color:white;
+    padding:10px 10px 50px 10px;
+    border:1px solid #BFBFBF;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.RotarDer 
+{
+    transform:rotate(-10deg);
+    -ms-transform:rotate(-10deg); /* IE9 */
+    -webkit-transform:rotate(-10deg); /* Safari y Chrome */
+    -moz-transform:rotate(-10deg); 
+}
+
+.RotarIzq 
+{
+    transform:rotate(10deg);
+    -ms-transform:rotate(10deg); /* IE9 */
+    -webkit-transform:rotate(10deg); /* Safari y Chrome */
+    -moz-transform:rotate(10deg); 
+}
+
+header
+{
+    background-color: red;
+    padding-bottom: 0;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header *
+{
+    padding-bottom: 0;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+main 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(ciudadNavidad.jpg);
+    background-size: 800px;
+    
+}
+
+.Rascador
+{
+    width: 200px;
+}
+
+.Arena
+{
+    width: 200px;
+}
+
+footer
+{
+    text-align: right;
+    background-color: green;
+    padding-bottom: 0;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+footer *
+{
+    padding-bottom: 0;
+    padding-top: 0px;
+    margin-top: 0px;
+}
